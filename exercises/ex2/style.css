@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Shorelines;
+    src: url('../../fonts/Shorelines.otf');
+}
+
+@font-face {
+    font-family: Compagnon;
+    src: url('../../fonts/Compagnon.otf');
+}
+
+h3 {
+    font-family: 'Shorelines';
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Compagnon';
+    text-align: center;
+}
+
+.st1 {
+    font-family: 'Shorelines';
+    text-align: center;
+    text-shadow: 0 0 5px #312179;
+}
+
+.st2 {
+    font-family: 'Compagnon';
+    text-align: center;
+}
