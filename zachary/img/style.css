@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
+
+nav {
+    background: aliceblue;
+    height: 55vh;
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.bioBox {
+    /* background: rosybrown; */
+    height: 50vh;
+}
+
+.bioLink {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    background:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactLink {
+    grid-column: 3/5;
+    grid-row: 3/4;
+    background:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.homeLink {
+    grid-column: 9/12;
+    grid-row: 2/3;
+    background:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iaLink {
+    grid-column: 15/17;
+    grid-row: 2/3;
+    background:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photosLink {
+    grid-column: 16/18;
+    grid-row: 3/4;
+    background:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackBit {
+    background: black;
+}
+.pinkBit {
+    background: #d4145a;
+}
+
+.bO_1{
+    grid-column: 6/9;
+    grid-row: 2/3;
+}
+
+.bO_2{
+    grid-column: 12/15;
+    grid-row: 2/3;
+}
+
+.bP_1{
+    grid-column: 6/9;
+    grid-row: 3/4;
+}
+
+.bP_2{
+    grid-column: 12/15;
+    grid-row: 3/4;
+}
