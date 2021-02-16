@@ -9,8 +9,8 @@ nav {
     background: aliceblue;
     height: 55vh;
     display: grid;
-    grid-template-columns: repeat(19, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(19, 60px);
+    grid-template-rows: repeat(12, 60px);
 }
 
 .bioBox {
