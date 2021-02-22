@@ -5,12 +5,20 @@ body {
     height: auto;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 nav {
-    background: aliceblue;
-    height: 55vh;
+    height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(19, 60px);
-    grid-template-rows: repeat(12, 60px);
+    grid-template-columns: repeat(19, 5vw);
+    grid-template-rows: repeat(12, 5vw);
 }
 
 .bioBox {
@@ -91,3 +99,4 @@ nav {
     grid-column: 12/15;
     grid-row: 3/4;
 }
+
