@@ -1,15 +1,15 @@
-$(window).on('load', function () {
-    $.instagramFeed({
-        'username': 'sydney.kit.anim',
-        'container': "#instagram-feed-demo"
+(function ($) {
+    $(window).on("load", function () {
+      $.instagramFeed({
+        username: "Instagram",
+        container: "#instagram-cont",
+        display_profile: true,
+        display_biography: true,
+        display_gallery: true,
+        items: 10,
+        items_per_row: 5,
+        margin: 0
+      });
     });
-});
-$(window).on('load', function () {
-    $.instagramFeed({
-        'username': 'sydney.kit.anim',
-        'container': "#instagram-feed-demo",
-        'display_profile': false,
-        'display_biography': false,
-        'display_igtv': false
-    });
-});
+  })(jQuery);
+  
