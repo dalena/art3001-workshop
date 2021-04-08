@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
 tw-story {
     background: red;
   }
   
   tw-passage {
+    font-family: 'Train One', cursive;
     font-size: 35px;
     line-height: 40px;
     color: white;
