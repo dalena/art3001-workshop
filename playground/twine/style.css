@@ -1,0 +1,31 @@
+tw-story {
+    background: red;
+  }
+  
+  tw-passage {
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+  }
+  
+  tw-link {
+    color: yellow;
+  }
+  
+  tw-link:hover {
+    color: orange;
+  }
+  
+  tw-story[tags~="start"] {
+    background: url("https://images.unsplash.com/photo-1559825481-12a05cc00344?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80")no-repeat center center;
+    background-size: cover;
+  }
+  
+  tw-story[tags~="start"] img{
+    width: 500px;
+  }
+  
+  tw-story[tags~="school"] {
+    background: url("https://wallpapercave.com/wp/5gHhtmO.jpg")no-repeat center center;
+    background-size: cover;
+  }
