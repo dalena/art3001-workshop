@@ -39,6 +39,8 @@ color: #fff;
 h3{
 font-size: 1.7em;
 text-transform: uppercase;
+font-family: BSV;
+text-shadow: 5px 5px 6px #ea4431;
 }
 .classCont{
 display: flex;
@@ -76,4 +78,8 @@ background: linear-gradient(
 180deg,
 #b9e0f7 0%, #FFFFFF 100%);
 box-shadow: 5px 5px 4px #ea4431;
+}
+
+iframe{
+    box-shadow: 10px 12px 30px #000;
 }
