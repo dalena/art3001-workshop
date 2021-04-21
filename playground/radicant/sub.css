@@ -151,9 +151,39 @@ iframe {
   text-shadow: none;
 }
 
+.classBack{
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   .flexCont{
     /* background: red; */
     flex-direction: column;
+  }
+  .flexMedia:nth-child(odd) {
+    padding: none;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .flexCont{
+    /* background: red; */
+    flex-direction: column;
+  }
+  .flexMedia:nth-child(odd) {
+    padding: none;
+  }
+
+  .classCont{
+    display:none;
+  }
+
+  .classBack, .classBack a{
+    display: block;
+    font-family: BSV;
+    font-size: 1.25em;
+    color: #ea4431;
+
   }
 }
