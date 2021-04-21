@@ -72,10 +72,10 @@ h5 {
 
 .classBut {
   font-size: 12px;
-  height: 28px;
+  max-height: 28px;
   line-height: 28px;
   font-weight: 700;
-  display: block;
+  display: flex;
   background: #fff;
   border-radius: 12px;
   letter-spacing: -0.01em;
@@ -90,11 +90,21 @@ h5 {
   cursor: pointer;
   transition: all .4s linear;
   border: 1px red dashed;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexTxt .classBut{
+  margin-top: 1em;
+  max-height: 50px;
+  font-size: 18px;
+
 }
 
 .classBut a {
   font-family: BSV;
   color: #ea4431;
+  transition: all .4s linear;
 }
 
 .classBut:hover {
@@ -105,6 +115,19 @@ h5 {
 
 iframe {
   box-shadow: 10px 12px 30px #000;
+}
+
+.flexMedia img {
+  max-width: 550px;
+  box-shadow: 10px 12px 30px #000;
+  padding:0;
+  margin:0;
+  transition: all .4s linear;
+}
+
+.flexMedia img:hover {
+  filter: invert(1) blur(2px);
+  
 }
 
 .flexCont {
@@ -126,6 +149,8 @@ iframe {
 
 .flexMedia:nth-child(odd) {
   padding-right: 5em;
+  align-items: center;
+
 }
 
 .flexMedia h4 {
@@ -174,6 +199,9 @@ iframe {
   .logo {
     max-width: 100%;
   }
+  .flexMedia img {
+    width: 100%;
+  }
 
 }
 
@@ -188,10 +216,19 @@ iframe {
     font-family: BSV;
     font-size: 1.25em;
     color: #ea4431;
-
   }
-
   .site {
-    padding: 1em;
+    margin: 27px auto;
   }
+  .classSum {
+    line-height: 1.25em;
+    font-size: 1em;
+  }
+  .flexMedia h4 {
+    font-size: 20px;
+  }
+  .flexMedia p {
+    font-size: 16px;
+    line-height: 18px;
+}
 }
