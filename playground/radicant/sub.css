@@ -60,7 +60,7 @@ h3 {
 h5 {
   font-size: 1.2em;
   font-family: BSV;
-  margin-top:1em;
+  margin-top: 1em;
 }
 
 .classCont {
@@ -151,39 +151,36 @@ iframe {
   text-shadow: none;
 }
 
-.classBack{
+.classBack {
   display: none;
 }
 
 @media only screen and (max-width: 1000px) {
-  .flexCont{
-    /* background: red; */
+  .flexCont {
     flex-direction: column;
   }
+
   .flexMedia:nth-child(odd) {
-    padding: none;
+    padding-right: 0px;
   }
 
 }
 
 @media only screen and (max-width: 800px) {
-  .flexCont{
-    /* background: red; */
-    flex-direction: column;
-  }
-  .flexMedia:nth-child(odd) {
-    padding: none;
+  .classCont {
+    display: none;
   }
 
-  .classCont{
-    display:none;
-  }
-
-  .classBack, .classBack a{
+  .classBack,
+  .classBack a {
     display: block;
     font-family: BSV;
     font-size: 1.25em;
     color: #ea4431;
 
+  }
+
+  .site {
+    padding: 0;
   }
 }
