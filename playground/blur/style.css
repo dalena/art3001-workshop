@@ -1,0 +1,9 @@
+.blur img {
+    filter: blur(20px);
+    transition: all ease-in-out .2s;
+    cursor: crosshair;
+}
+
+.blur img:hover {
+    filter: blur(0px);
+}

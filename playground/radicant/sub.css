@@ -2,84 +2,158 @@
   font-family: BSV;
   src: url('https://u.osu.edu/radicantbodies/files/2021/04/BANDEINSSTRANGEVARIABLEGX.ttf');
 }
+
 html {
-background-image: linear-gradient(
-180deg
-, #b9e0f7 8%, #afb6e8 19%, #c58bb7 56%, #c58bb7 76%, #ea4431 100%);
-background-repeat: no-repeat;
-background-attachment: fixed;
-width: 100%;
-height: 100vh; 
-}
-body {
-background: none;
-}
-#page, .site, #osu-branding, #body-footer{
-background: none;
-color: #fff;
-}
-.site-header, .entry-header, #osu-branding, .site-footer, .u-osu-powered{
-display: none !important;
-}
-.site {
-padding: 50px;
-}
-.logo{
-max-width: 50%;
-}
-p {
-margin: 0;
-}
-h2{
-margin-top: 8px !important;
-font-family: BSV;
-font-size: 1.3em !important;
-color: #fff;
-}
-h3{
-font-size: 1.7em;
-text-transform: uppercase;
-font-family: BSV;
-text-shadow: 5px 5px 6px #ea4431;
-}
-.classCont{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-padding: 10px 0px;
-}
-.classBut{
-font-size: 12px;
-height: 28px;
-line-height: 28px;
-font-weight: 700;
-display: block;
-background: #fff;
-border-radius: 12px;
-letter-spacing: -0.01em;
-text-transform: uppercase;
-text-decoration: none;
-padding: 0 10px;
-margin-right: 6.7px;
-margin-bottom: 6.7px;
-flex: 1;
-text-align: center;
-white-space: nowrap;
-cursor: pointer;
-transition: all .4s linear;
-border: 1px red dashed;
-}
-.classBut a{
-font-family: BSV;
-color: #ea4431 ;
-}
-.classBut:hover {
-background: linear-gradient(
-180deg,
-#b9e0f7 0%, #FFFFFF 100%);
-box-shadow: 5px 5px 4px #ea4431;
+  background-image: linear-gradient(180deg, #b9e0f7 8%, #afb6e8 19%, #c58bb7 56%, #c58bb7 76%, #ea4431 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
 }
 
-iframe{
-    box-shadow: 10px 12px 30px #000;
+body {
+  background: none;
+}
+
+#page,
+.site,
+#osu-branding,
+#body-footer {
+  background: none;
+  color: #fff;
+}
+
+.site-header,
+.entry-header,
+#osu-branding,
+.site-footer,
+.u-osu-powered {
+  display: none !important;
+}
+
+.site {
+  padding: 50px;
+}
+
+.logo {
+  max-width: 50%;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 8px !important;
+  font-family: BSV;
+  font-size: 1.3em !important;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-family: BSV;
+  text-shadow: 5px 5px 6px #ea4431;
+}
+
+h5 {
+  font-size: 1.2em;
+  font-family: BSV;
+  margin-top:1em;
+}
+
+.classCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px 0px;
+}
+
+.classBut {
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  font-weight: 700;
+  display: block;
+  background: #fff;
+  border-radius: 12px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  margin-right: 6.7px;
+  margin-bottom: 6.7px;
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .4s linear;
+  border: 1px red dashed;
+}
+
+.classBut a {
+  font-family: BSV;
+  color: #ea4431;
+}
+
+.classBut:hover {
+  background: linear-gradient(180deg,
+      #b9e0f7 0%, #FFFFFF 100%);
+  box-shadow: 5px 5px 4px #ea4431;
+}
+
+iframe {
+  box-shadow: 10px 12px 30px #000;
+}
+
+.flexCont {
+  display: flex;
+  /* max-height: 300px; */
+  flex-direction: row;
+  width: 100%;
+  /* background: red; */
+}
+
+.flexMedia {
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+
+.flexMedia:nth-child(odd) {
+  padding-right: 5em;
+}
+
+.flexMedia h4 {
+  font-family: BSV;
+  font-size: 26px;
+  letter-spacing: 1.25px;
+  text-shadow: 5px 5px 6px #ea4431;
+  margin: 0;
+  padding-bottom: 1em;
+
+}
+
+.flexMedia p {
+  font-family: Arial;
+  font-size: 20px;
+  text-shadow: 0px 0px 20px #000;
+
+}
+
+.flexMedia .emoji {
+  /* text-align:center; */
+  padding-top: 2em;
+  text-shadow: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .flexCont{
+    /* background: red; */
+    flex-direction: column;
+  }
 }

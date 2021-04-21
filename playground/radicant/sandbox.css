@@ -1,0 +1,12 @@
+@font-face {
+    font-family: BSV;
+    src: url(fonts/BSV.ttf);
+  }
+
+body {
+    margin: 27px auto;
+    max-width: 1200px;
+    padding: 54px;
+    color: #fff;
+}
+
