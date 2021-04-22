@@ -98,7 +98,6 @@ h5 {
   margin-top: 1em;
   max-height: 50px;
   font-size: 18px;
-
 }
 
 .classBut a {
@@ -127,7 +126,6 @@ iframe {
 
 .flexMedia img:hover {
   filter: invert(1) blur(2px);
-
 }
 
 .flexCont {
@@ -181,6 +179,11 @@ iframe {
 
 .classSum {
   font-size: 18px;
+}
+
+/* Diana Abells */
+article#post-82 p {
+  text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
