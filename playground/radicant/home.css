@@ -72,14 +72,25 @@
       border: 1px red dashed;
   }
   .classBut a{
-  font-family: BSV;
-  color: #ea4431 ;
+    font-family: BSV;
+    color: #ea4431;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .classBut:hover {
   background: linear-gradient(
   180deg,
   #b9e0f7 0%, #FFFFFF 100%);
       box-shadow: 5px 5px 4px #ea4431;
+  }
+
+  p.txtBox {
+    font-size: 22px;
+    line-height: 30px;
+    text-shadow: 0px 0px 20px #000;
   }
   @media only screen and (max-width: 700px) {
   .classCont{
