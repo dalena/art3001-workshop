@@ -80,7 +80,7 @@ h5 {
   padding: 10px 0px;
 }
 
-a>.classBut, a>.noHo {
+.classBut, a>.noHo {
   font-size: 12px;
   max-height: 28px;
   line-height: 28px;
@@ -110,7 +110,7 @@ a>.classBut, a>.noHo {
   font-size: 18px;
 }
 
-.classBut, .noHo {
+.classBut a, .noHo {
   font-family: BSV;
   color: #ea4431;
   transition: all .4s linear;
@@ -126,7 +126,7 @@ a>.classBut, a>.noHo {
   min-width: 150px;
 }
 
-.classBut:hover .noHo:hover{
+.classBut:hover{
   background: linear-gradient(180deg,
       #b9e0f7 0%, #FFFFFF 100%);
   box-shadow: 5px 5px 4px #ea4431;
