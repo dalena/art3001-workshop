@@ -14,6 +14,16 @@ html {
 body {
   background: none;
 }
+a{
+  text-decoration: none;;
+}
+.classSum a{
+  transition: all 2s ease;
+}
+.classSum a:hover {
+  text-shadow: 5px 5px 6px #ea4431;
+  filter: invert(1);
+}
 
 #page,
 .site,
@@ -70,11 +80,11 @@ h5 {
   padding: 10px 0px;
 }
 
-.classBut {
+a>.classBut, a>.noHo {
   font-size: 12px;
   max-height: 28px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   background: #fff;
   border-radius: 12px;
@@ -89,7 +99,7 @@ h5 {
   white-space: nowrap;
   cursor: pointer;
   transition: all .4s linear;
-  border: 1px red dashed;
+  border: 1px red dotted;
   justify-content: center;
   align-items: center;
 }
@@ -100,16 +110,27 @@ h5 {
   font-size: 18px;
 }
 
-.classBut a {
+.classBut, .noHo {
   font-family: BSV;
   color: #ea4431;
   transition: all .4s linear;
 }
+.notableHome{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  padding: 10px 0;
+  margin-bottom: 2em;
+}
+.noHo {
+  min-width: 150px;
+}
 
-.classBut:hover {
+.classBut:hover .noHo:hover{
   background: linear-gradient(180deg,
       #b9e0f7 0%, #FFFFFF 100%);
   box-shadow: 5px 5px 4px #ea4431;
+  border: 1px red solid;
 }
 
 iframe {
