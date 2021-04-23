@@ -133,7 +133,7 @@ h5 {
   border: 1px red solid;
 }
 
-iframe, img.aligncenter, .wp-video{
+iframe, img.aligncenter, img.alignnone, .wp-video, .gallery-item img{
   box-shadow: 10px 12px 30px #000;
 }
 
@@ -145,7 +145,7 @@ iframe, img.aligncenter, .wp-video{
   transition: all .4s linear;
 }
 
-.flexMedia img:hover, img.aligncenter {
+.flexMedia img:hover, img.aligncenter:hover {
   filter: invert(1) blur(2px);
 }
 
