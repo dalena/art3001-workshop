@@ -133,7 +133,7 @@ h5 {
   border: 1px red solid;
 }
 
-iframe {
+iframe, img.aligncenter{
   box-shadow: 10px 12px 30px #000;
 }
 
@@ -145,7 +145,7 @@ iframe {
   transition: all .4s linear;
 }
 
-.flexMedia img:hover {
+.flexMedia img:hover, img.aligncenter {
   filter: invert(1) blur(2px);
 }
 
@@ -203,7 +203,7 @@ iframe {
 }
 
 /* Diana Abells */
-article#post-82 p {
+article#post-82 p>iframe {
   text-align: center;
 }
 
