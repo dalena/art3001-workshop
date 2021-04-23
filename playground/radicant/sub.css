@@ -114,6 +114,7 @@ h5 {
   font-family: BSV;
   color: #ea4431;
   transition: all .4s linear;
+  width: 100%;
 }
 .notableHome{
   display: flex;
@@ -205,6 +206,10 @@ iframe, img.aligncenter, img.alignnone, .wp-video, .gallery-item img{
 /* Diana Abells */
 article#post-82 p>iframe {
   text-align: center;
+}
+
+article#post-104 p>iframe {
+  margin: 30px 0px;
 }
 
 @media only screen and (max-width: 1000px) {
