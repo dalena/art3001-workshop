@@ -53,7 +53,7 @@
       height: 47px;
       font-size: 20px;
       display: block;
-      background: #fff;
+      background: #fff0f0b0;
       border-radius: 12px;
       font-weight: 100;
       font-size: 18px;
@@ -83,7 +83,7 @@
   .classBut:hover {
   background: linear-gradient(
   180deg,
-  #b9e0f7 0%, #FFFFFF 100%);
+  #b9e0f7 0%, #fff0f0b0 100%);
       box-shadow: 5px 5px 4px #ea4431;
   }
 
@@ -91,6 +91,7 @@
     font-size: 22px;
     line-height: 30px;
     text-shadow: 0px 0px 20px #000;
+    text-align: justify;
   }
   @media only screen and (max-width: 700px) {
   .classCont{
