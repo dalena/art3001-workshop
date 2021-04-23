@@ -136,6 +136,7 @@ h5 {
 
 iframe, img.aligncenter, img.alignnone, .wp-video, .gallery-item img{
   box-shadow: 10px 12px 30px #000;
+  transition: all .4s linear;
 }
 
 .flexMedia img {
