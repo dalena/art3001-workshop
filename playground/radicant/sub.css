@@ -133,7 +133,7 @@ h5 {
   border: 1px red solid;
 }
 
-iframe, img.aligncenter{
+iframe, img.aligncenter, .wp-video{
   box-shadow: 10px 12px 30px #000;
 }
 
